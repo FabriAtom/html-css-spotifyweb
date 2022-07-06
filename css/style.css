@@ -26,6 +26,7 @@
     height: 960px;
     width: 220px;
     background-color:rgb(8, 11, 18);
+    display: inline;
 }
 
 
@@ -37,9 +38,15 @@
 
 
 /* BODY */
+
+.flex{
+    display: flex;
+}
 .container-body{
     width: 1150px;
-    height: 960px;
+    height: 960px; 
+    background-color: rgb(20, 25, 34);
+
 }
 
 
