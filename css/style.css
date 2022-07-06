@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    
+}
+
+/* BODY */
+
+
+/* MAIN */
+.horizontal{
+}
+
+.container-hori{
+    height: 80px;
+    background-color: rgb(8, 11, 18);
+    display: flex;
+}
+
+.container-vert{
+    height: 960px;
+    width: 220px;
+    background-color:rgb(8, 11, 18);
+}
+
+
+
+
+
+
+
+
+
+/* BODY */
+.container-body{
+    width: 1150px;
+    height: 960px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+.footer{
+    
+}
+.footbar{
+    height: 100px;
+    background-color: rgb(40, 40, 40);
+    display: flex;
+}
+
+.foot{
+    justify-content: space-between;
+}
+.foot start{
+    width: 25%;
+    background-color: red;
+}
+.foot center{
+    width: 50%;
+    background-color: aqua;
+}
+
+.foot end{
+    width: 25%;
+}
