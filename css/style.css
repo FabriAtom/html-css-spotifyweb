@@ -3,7 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+ul,
+li,
+menu{
+    list-style: none;
+}
 
 :root{
     
@@ -23,6 +27,9 @@
 	width:200px;
     background-color:black;
 	height:100%;
+
+    display: flex;
+    flex-direction: column;
 }
 .container-hori{
 	height:80px;
@@ -49,19 +56,92 @@
     background-color: transparent;
     border-radius: 10px;
     color: white;
+    border: 1px solid white;   
+}
 
-    
+.grey-button{
+    background-color: grey;
 }
 /* IMG */
 .sinister{
     width: 60px;
 }
 
+.fa-solid{
+    color: white;
+}
+.bianchi{
+    color: grey;
+}
 
 
+
+
+
+
+
+
+/* CONTAINER-VERT */
+.logo-vert{
+    height: 80px;
+}
+.logo{
+    font-size: auto;
+}
+
+.home{
+    height: 115px;
+    color: white;
+}
+
+.playlist{
+    height: 90px;
+}
+
+.playlist-white{
+    color: white;
+    font-size: 18px;
+}
+.playlist-grey{
+    color:grey;
+    font-size: 14px;
+}
+
+.elenco{
+    color: grey;
+    flex-grow: 1;
+}
+
+.foot-cont-vert{
+    height: 100px;
+}
+
+.grigio{
+    color: grey;
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+}
 
 /* BODY */
+.cont-evident{
+}
 
+.evident{
+    color: grey;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.evident{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+/* CONTAINER-HORI */
+.barra::after{
+    border: 2px solid green;
+}
 
 
 
@@ -79,8 +159,8 @@
     justify-content: space-between;
 }
 .foot-start{
-    width: 25%;
     height: 100px;
+    display:flex;
 }
 .foot-center{
     width: 50%;
@@ -91,3 +171,11 @@
     width: 25%;
     height: 100px;
 }
+
+.grey-foot{
+    color: grey;
+}
+.white-foot{
+    color: white;
+}
+
